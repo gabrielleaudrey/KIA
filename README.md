@@ -2,6 +2,7 @@
 
 
 Machine Learning
+
 /-What we did overall
 KIA used Artificial Neural Network (ANN) approach to create a machine learning model using Tensorflow Keras library. By building the Convolutional Neural Network (CNN) layers from scratch and collecting the images we needed to train the dataset, we manage to create an image classification model with the ability to classify 7 categories (Anggur, Apel, Brokoli, Jeruk, Pisang, Tahu, Wortel) with the average of 75% accuracy.
 *note: we created the label in Bahasa Indonesia because our priority is to deploy in Indonesia. Label in English (Grape, Apple, Broccoli, Orange, Banana, Tofu, Carot).
