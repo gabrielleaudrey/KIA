@@ -1,0 +1,39 @@
+===== SQL COMMAND ======
+
+#connect sql to cloud shell
+gcloud sql connect kia --user=root --quiet
+
+#create new databse callled 'kia'
+CREATE DATABASE kia;
+
+#set the database, so if we create a table, the table will be create inside of the databse 'kia'
+USE kia
+
+#create table article
+CREATE TABLE article (id_article VARCHAR(11), title VARCHAR(255), author VARCHAR(255), date DATE, content VARCHAR(255),status BOOL);
+
+#create table user
+CREATE TABLE user (id_user VARCHAR(11), name VARCHAR(255), email VARCHAR(55), phone VARCHAR(13));     
+
+#create table nutrition
+CREATE TABLE nutrition (id_nutrition VARCHAR(11), name VARCHAR(255), energy DOUBLE, protein DOUBLE, fat DOUBLE, carbohydrate DOUBLE, fiber DOUBLE, status BOOL);
+
+#insert the data into the user table
+INSERT INTO user (id_user, name, email, phone) VALUES ("11045625001", "Victoria", "victoria@gmail.com", "083694218341");   
+INSERT INTO user (id_user, name, email, phone) VALUES ("11045625002", "Xander", "xand19@gmail.com", "081465378921");
+INSERT INTO user (id_user, name, email, phone) VALUES ("11045625003", "Reinhardt", "re_re04@gmail.com", "08223347124");
+INSERT INTO user (id_user, name, email, phone) VALUES ("11045625004", "Yuri Andreas", "yuri98@gmail.com", "082546378912");
+INSERT INTO user (id_user, name, email, phone) VALUES ("11045625005", "Bambang Sumartono", "bam_smt54@gmail.com", "081145367852");
+INSERT INTO user (id_user, name, email, phone) VALUES ("11045625006", "Sonli Silver", "silversonli@gmail.com", "085642238559");
+INSERT INTO user (id_user, name, email, phone) VALUES ("11045625007", "Leonard Agustus", "ags_leo22@gmail.com", "085425595751");
+
+#insert data into article table
+INSERT INTO article (id_article, title, author, date, content) VALUES ("25089613001", "Healthy Pregnancy", "cdc.gov", "2021-01-11", "Obesity increases the risk for several serious birth defects and other pregnancy complications.");
+INSERT INTO article (id_article, title, author, date, content) VALUES ("25089613002", "Become up-to-date with all vaccinations, including the flu shot.", "cdc.gov", "2021-01-11", "Vaccines help protect you and your developing baby against serious diseases. Get a flu shot annually and a whooping cough vaccine during each pregnancy to help protect yourself and your baby.");
+INSERT INTO article (id_article, title, author, date, content) VALUES ("25089613003", "Book a visit with your healthcare provider before stopping or starting any medicine.", "cdc.gov", "2021-01-11", "Many women need to take medicine to stay healthy during pregnancy. If you are planning to become pregnant, discuss your current medicines with a healthcare provider, such as your doctor or pharmacist.");
+INSERT INTO article (id_article, title, author, date, content) VALUES ("25089613004", "Be sure to take 400 micrograms (mcg) of folic acid every day.", "cdc.gov", "2021-01-11", "Folic acid is important because it can help prevent some major birth defects of the baby’s brain and spine.");
+
+source article : https://www.cdc.gov/ncbddd/birthdefects/features/healthy-pregnancy.html
+
+
+CREATE TABLE vaccine (id_vaccine VARCHAR(11), name VARCHAR(255), vaccine_func VARCHAR(255), indication VARCHAR(255), contrra_indication VARCHAR(255), immunization VARCHAR(255));
