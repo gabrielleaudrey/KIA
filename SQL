@@ -37,3 +37,6 @@ source article : https://www.cdc.gov/ncbddd/birthdefects/features/healthy-pregna
 
 
 CREATE TABLE vaccine (id_vaccine VARCHAR(11), name VARCHAR(255), vaccine_func VARCHAR(255), indication VARCHAR(255), contrra_indication VARCHAR(255), immunization VARCHAR(255));
+
+#to show all of the data in table
+SELECT * FROM user;
