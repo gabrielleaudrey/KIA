@@ -1,0 +1,26 @@
+
+    1  docker pull tensorflow/serving
+    2  docker image ls
+    3  nano Dockerfile 
+	#Upload model folder to Google Cloud Shell
+    4  mkdir project_model
+    5  ls
+    6  cd project_model/
+    7  mkdir variables
+    8  mkdir assets
+    9  ls
+   10  cd ..
+   11  mv saved_model.pb project_model/
+   12  mv keras_metadata.pb project_model/
+   13  cd project_model/
+   14  ls
+   15  cd ..
+   16  ls
+   17  mv variables.index project_model/variables/
+   18  mv variables.data-00000-of-00001 project_model/variables/
+   19  ls
+   20  nano Dockerfile 
+   21  docker build -t gcr.io/steady-computer-313408/project_model .
+   22  docker push gcr.io/steady-computer-313408/project_model
+   23  gcloud run deploy --image gcr.io/steady-computer-313408/project_model --platform managed
+
