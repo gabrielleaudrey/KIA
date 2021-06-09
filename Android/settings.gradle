@@ -1,0 +1,3 @@
+rootProject.name = "Capstone Bangkit"
+include ':app'
+include ':core'

@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Capstone Bangkit</string>
+    <string name="title_home">Home</string>
+    <string name="imunitation">Immunization</string>
+    <string name="nutrition">Nutrition</string>
+    <string name="mom">Mom</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="fungsi">Function</string>
+    <string name="function_example_vaccine">Mencegah penyakit Hepatitis B yang dapat menyebabkan kerusakan hati</string>
+    <string name="indication">Indication</string>
+    <string name="example_indication_vaccine">Anak yang belum pernah menerima imunisasi Hepatits B1</string>
+    <string name="after_vaccine">Post-Immunization Events</string>
+    <string name="example_after_vaccine">Reaksi lokal seperti nyeri, kemerahan, bengkak yang ringan, dan bersifat sementara. Kadang disertai demam ringan selama 1 - 2 hari.</string>
+    <string name="fab_detail_vaccine">set status vaccine</string>
+    <string name="profile">Profile</string>
+    <string name="pertanyaan_vaksin">Has your child been vaccinated?</string>
+    <string name="image_description">image</string>
+    <string name="simpan">Save</string>
+    <string name="nama_ibu">Mother\'s Name</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="nomor_handphone">Number Phone</string>
+    <string name="nama_anak">Child Name</string>
+    <string name="tanggal_lahir">Date of Birth</string>
+    <string name="perempuan">Female</string>
+    <string name="laki_laki">Male</string>
+    <string name="gender">Gender</string>
+    <string name="dato_of_immunization">Date of Immunization</string>
+    <string name="hospital">Hospital</string>
+    <string name="not_yet">Not Yet</string>
+    <string name="already">Already</string>
+    <string name="btn_sel">Select</string>
+    <string name="btn_cam">Camera</string>
+    <string name="btn_pred">Predict</string>
+
+    <string name="tv_title_nutrition">Kandungan Gizi</string>
+    <string name="tv_kalo">Kalori\t\t\t\t\t:</string>
+    <string name="tv_lemak">Lemak\t\t\t\t:</string>
+    <string name="tv_koles">Kolesterol\t\t:</string>
+    <string name="tv_natri">Natrium\t\t\t:</string>
+    <string name="tv_kali">Kalium\t\t\t\t:</string>
+    <string name="tv_karbo">Karbohdrat\t:</string>
+    <string name="tv_protein">Protein\t\t\t\t:</string>
+    <!--    <string name="tv_cuuba">Kalori :\nLemak :\n</string>-->
+</resources>

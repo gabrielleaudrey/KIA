@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="210dp"
+            android:layout_height="210dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.06"
+            app:srcCompat="@drawable/image_scan" />
+
+        <Button
+            android:id="@+id/buttonSelect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="150dp"
+            android:text="@string/btn_sel"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+        <Button
+            android:id="@+id/buttonCamera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/btn_cam"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+        <Button
+            android:id="@+id/buttonPredict"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/btn_pred"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonCamera" />
+
+
+        <TextView
+            android:id="@+id/tv_tittle_nutrition"
+            android:layout_width="236dp"
+            android:layout_height="28dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/nunito_bold"
+            android:text="@string/tv_title_nutrition"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonPredict" />
+
+        <TextView
+            android:id="@+id/tvKalori"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="88dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/nunito_bold"
+            android:text="@string/tv_kalo"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_tittle_nutrition" />
+
+        <TextView
+            android:id="@+id/tvLemak"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="88dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/nunito_bold"
+            android:text="@string/tv_lemak"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvKalori" />
+
+        <TextView
+            android:id="@+id/tvKolesterol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="88dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/nunito_bold"
+            android:text="@string/tv_koles"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvLemak" />
+
+        <TextView
+            android:id="@+id/tvNatrium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="88dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/nunito_bold"
+            android:text="@string/tv_natri"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvKolesterol" />
+
+        <TextView
+            android:id="@+id/tvKalium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="88dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/nunito_bold"
+            android:text="@string/tv_kali"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvNatrium" />
+
+        <TextView
+            android:id="@+id/tvKarbohidrat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="88dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/nunito_bold"
+            android:text="@string/tv_karbo"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvKalium" />
+
+        <TextView
+            android:id="@+id/tvProtein"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="88dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/nunito_bold"
+            android:text="@string/tv_protein"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvKarbohidrat" />
+
+        <TextView
+            android:id="@+id/tv_result_kalori"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/nunito_bold"
+            app:layout_constraintStart_toEndOf="@+id/tvKalori"
+            app:layout_constraintTop_toBottomOf="@+id/tv_tittle_nutrition"
+            tools:text="0.76 Kg" />
+
+        <TextView
+            android:id="@+id/tv_result_lemak"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/nunito_bold"
+            app:layout_constraintStart_toEndOf="@+id/tvKalori"
+            app:layout_constraintTop_toBottomOf="@+id/tv_result_kalori"
+            tools:text="0.76 Kg" />
+
+        <TextView
+            android:id="@+id/tv_result_kolesterol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/nunito_bold"
+            app:layout_constraintStart_toEndOf="@+id/tvKalori"
+            app:layout_constraintTop_toBottomOf="@+id/tv_result_lemak"
+            tools:text="0.76 Kg" />
+
+        <TextView
+            android:id="@+id/tv_result_natrium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/nunito_bold"
+            app:layout_constraintStart_toEndOf="@+id/tvKalori"
+            app:layout_constraintTop_toBottomOf="@+id/tv_result_kolesterol"
+            tools:text="0.76 Kg" />
+
+        <TextView
+            android:id="@+id/tv_result_kalium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/nunito_bold"
+            app:layout_constraintStart_toEndOf="@+id/tvKalori"
+            app:layout_constraintTop_toBottomOf="@+id/tv_result_natrium"
+            tools:text="0.76 Kg" />
+
+        <TextView
+            android:id="@+id/tv_result_karbohidrat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/nunito_bold"
+            app:layout_constraintStart_toEndOf="@+id/tvKalori"
+            app:layout_constraintTop_toBottomOf="@+id/tv_result_kalium"
+            tools:text="0.76 Kg" />
+
+        <TextView
+            android:id="@+id/tv_result_protein"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/nunito_bold"
+            app:layout_constraintStart_toEndOf="@+id/tvKalori"
+            app:layout_constraintTop_toBottomOf="@+id/tv_result_karbohidrat"
+            tools:text="0.76 Kg" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

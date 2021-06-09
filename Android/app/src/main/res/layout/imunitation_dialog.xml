@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp">
+
+    <EditText
+        android:id="@+id/edt_dialog_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nunito_regular"
+        android:hint="@string/dato_of_immunization"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/edt_dialog_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edt_dialog_date"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/nunito_regular"
+        android:hint="Alarm"
+        android:inputType="time" />
+
+    <EditText
+        android:id="@+id/edt_dialog_hospital"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edt_dialog_time"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/nunito_regular"
+        android:hint="@string/hospital"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/text_vaccine_question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edt_dialog_hospital"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/nunito_bold"
+        android:text="@string/pertanyaan_vaksin"
+        android:textSize="14sp" />
+
+    <RadioGroup
+        android:id="@+id/rg_status_vaccine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_vaccine_question"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_sudah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nunito_regular"
+            android:text="@string/already" />
+
+        <RadioButton
+            android:id="@+id/rb_belum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nunito_regular"
+            android:text="@string/not_yet" />
+    </RadioGroup>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/rg_status_vaccine"
+        android:background="@android:color/darker_gray" />
+</RelativeLayout>

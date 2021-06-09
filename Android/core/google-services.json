@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "61885959910",
+    "project_id": "steady-computer-313408",
+    "storage_bucket": "steady-computer-313408.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:61885959910:android:9cca1b56dc6c1bb0693527",
+        "android_client_info": {
+          "package_name": "its.nugrohodimas.capstonebangkit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "61885959910-3t7d6r9h4upob8qo1b29g9o2tgo51ku9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWUSWFU6ui6NsKIw0be4CzN4bBSEGhtZI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "61885959910-3t7d6r9h4upob8qo1b29g9o2tgo51ku9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".ui.home.article.DetailArticleActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="2dp"
+        app:cardUseCompatPadding="true">
+
+        <ImageView
+            android:id="@+id/img_detail_article"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/image_description"
+            android:scaleType="centerCrop"
+            tools:src="@drawable/example_image_article" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/tv_detail_article_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="4dp"
+        android:fontFamily="@font/nunito_regular"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:text="@string/title_home" />
+
+    <TextView
+        android:id="@+id/tv_detail_article"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:fontFamily="@font/nunito_regular"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        tools:text="@string/function_example_vaccine" />
+
+    <TextView
+        android:id="@+id/tv_detail_author"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="4dp"
+        android:fontFamily="@font/nunito_regular"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        tools:text="Timothy Uncle" />
+
+    <TextView
+        android:id="@+id/tv_detail_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/nunito_light"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        tools:text="27-09-2000" />
+</LinearLayout>

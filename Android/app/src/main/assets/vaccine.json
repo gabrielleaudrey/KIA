@@ -1,0 +1,67 @@
+{
+  "vaccine": [
+    {
+      "id": "2",
+      "name": "Hepatitis B Vaccine",
+      "vaccineFunc": "Hepatitis B vaccine can prevent hepatitis B.  Hepatitis B is a liver disease that can cause mild illness lasting a few weeks, or it can lead to a serious, lifelong illness.",
+      "postImmunization": "Soreness where the shot is given or fever can happen after hepatitis B vaccine.",
+      "indication": "Infants should get their first dose of hepatitis B vaccine at birth and will usually complete the series at 6 months of age (sometimes it will take longer than 6 months to complete the series)."
+    },
+    {
+      "id": "3",
+      "name": "Hepatitis A Vaccine",
+      "vaccineFunc": "Vaccine can prevent hepatitis A. It is usually spread through close personal contact with an infected person.",
+      "postImmunization": "Soreness or redness where the shot is given, fever, headache, tiredness, or loss of appetite can happen after hepatitis A vaccine.",
+      "indication": "Older children and adolescents 2 through 18 years of age who were not vaccinated previously should be vaccinated."
+    },
+    {
+      "id": "4",
+      "name": "Haemophilus Influenzae Type b (Hib) VIS",
+      "vaccineFunc": "Hib vaccine can prevent Haemophilus influenzae type b (Hib) disease. These infections usually affect children under 5 years of age, but can also affect adults with certain medical conditions.",
+      "postImmunization": "Redness, warmth, and swelling where shot is given, and fever can happen after Hib vaccine.",
+      "indication": "Infants will usually get their first dose of Hib vaccine at 2 months of age, and will usually complete the series at 12-15 months of age."
+    },
+    {
+      "id": "5",
+      "name": "Live, Intranasal Influenza VIS",
+      "vaccineFunc": "Influenza vaccine can prevent influenza (flu).",
+      "postImmunization": "Runny nose or nasal congestion, wheezing and headache can happen after LAIV. Vomiting, muscle aches, fever, sore throat and cough are other possible side effects.",
+      "indication": "CDC recommends everyone 6 months of age and older get vaccinated every flu season. Children 6 months through 8 years of age may need 2 doses during a single flu season.  Everyone else needs only 1 dose each flu season."
+    },
+    {
+      "id": "6",
+      "name": "Inactivated Influenza VIS",
+      "vaccineFunc": "Influenza vaccine can prevent influenza (flu).",
+      "postImmunization": "Soreness, redness, and swelling where shot is given, fever, muscle aches, and headache can happen after influenza vaccine. There may be a very small increased risk of Guillain-Barré Syndrome (GBS) after inactivated influenza vaccine (the flu shot).",
+      "indication": "CDC recommends everyone 6 months of age and older get vaccinated every flu season. Children 6 months through 8 years of age may need 2 doses during a single flu season.  Everyone else needs only 1 dose each flu season."
+    },
+    {
+      "id": "7",
+      "name": "MMR (Measles, Mumps, & Rubella) VIS",
+      "vaccineFunc": "MMR vaccine can prevent measles, mumps, and rubella.",
+      "postImmunization": "Soreness, redness, or rash where the shot is given and rash all over the body can happen after MMR vaccine. Fever or swelling of the glands in the cheeks or neck sometimes occur after MMR vaccine. More serious reactions happen rarely. These can include seizures (often associated with fever), temporary pain and stiffness in the joints (mostly in teenage or adult women), pneumonia, swelling of the brain and/or spinal cord covering, or temporary low platelet count which can cause unusual bleeding or bruising. In people with serious immune system problems, this vaccine may cause an infection which may be life-threatening. People with serious immune system problems should not get MMR vaccine.",
+      "indication": "Infants who will be traveling outside the United States when they are between 6 and 11 months of age should get a dose of MMR vaccine before travel. The child should still get 2 doses at the recommended ages for long-lasting protection."
+    },
+    {
+      "id": "8",
+      "name": "MMRV (Measles, Mumps, Rubella & Varicella) VIS",
+      "vaccineFunc": "MMRV vaccine can prevent measles, mumps, rubella, and varicella.",
+      "postImmunization": "Soreness, redness, or rash where the shot is given can happen after MMRV vaccine. Fever or swelling of the glands in the cheeks or neck sometimes occur after MMRV vaccine. Seizures, often associated with fever, can happen after MMRV vaccine. The risk of seizures is higher after MMRV than after separate MMR and varicella vaccines when given as the first dose of the series in younger children. Your health care provider can advise you about the appropriate vaccines for your child. More serious reactions happen rarely. These can include pneumonia, swelling of the brain and/or spinal cord covering, or temporary low platelet count which can cause unusual bleeding or bruising. In people with serious immune system problems, this vaccine may cause an infection which may be life-threatening. People with serious immune system problems should not get MMRV vaccine.",
+      "indication": "MMRV vaccine may be given at the same time as other vaccines. Instead of MMRV, some children might receive separate shots for MMR (measles, mumps, and rubella) and varicella. Your health care provider can give you more information."
+    },
+    {
+      "id": "9",
+      "name": "Pneumococcal Conjugate (PCV13) VIS",
+      "vaccineFunc": "Pneumococcal conjugate vaccine (PCV13) can prevent pneumococcal disease. Pneumococcal disease refers to any illness caused by pneumococcal bacteria. These bacteria can cause many types of illnesses, including pneumonia, which is an infection of the lungs.",
+      "postImmunization": "Redness, swelling, pain, or tenderness where the shot is given, and fever, loss of appetite, fussiness (irritability), feeling tired, headache, and chills can happen after PCV13.",
+      "indication": "Infants and young children usually need 4 doses of pneumococcal conjugate vaccine, at 2, 4, 6, and 12–15 months of age. In some cases, a child might need fewer than 4 doses to complete PCV13 vaccination."
+    },
+    {
+      "id": "10",
+      "name": "Pneumococcal Polysaccharide VIS",
+      "vaccineFunc": "Pneumococcal polysaccharide vaccine (PPSV23) can prevent pneumococcal disease. Pneumococcal disease refers to any illness caused by pneumococcal bacteria. These bacteria can cause many types of illnesses, including pneumonia, which is an infection of the lungs.",
+      "postImmunization": "Redness or pain where the shot is given, feeling tired, fever, or muscle aches can happen after PPSV23.",
+      "indication": "Anyone 2 years or older with certain medical conditions that can lead to an increased risk for pneumococcal disease."
+    }
+  ]
+}

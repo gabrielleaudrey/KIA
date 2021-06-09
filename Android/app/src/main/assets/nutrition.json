@@ -1,0 +1,74 @@
+{
+  "nutrition": [
+    {
+      "prediksi": "Anggur",
+      "kalori": "66 kcal",
+      "lemak": "0,4 g",
+      "kolesterol": "0 mg",
+      "natrium": "2 mg",
+      "kalium": "316 mg",
+      "karbohidrat": "17 g",
+      "protein": "0,6 g"
+    },
+    {
+      "prediksi": "Brokoli",
+      "kalori": "33 kcal",
+      "lemak": "0,4 g",
+      "kolesterol": "0 mg",
+      "natrium": "33 mg",
+      "kalium": "316 mg",
+      "karbohidrat": "7 g",
+      "protein": "2,8 g"
+    },
+    {
+      "prediksi": "Wortel",
+      "kalori": "41 kcal",
+      "lemak": "0,2 g",
+      "kolesterol": "0 mg",
+      "natrium": "69 mg",
+      "kalium": "320 mg",
+      "karbohidrat": "10 g",
+      "protein": "0,9 g"
+    },
+    {
+      "prediksi": "Apel",
+      "kalori": "52 kcal",
+      "lemak": "0,2 g",
+      "kolesterol": "0 mg",
+      "natrium": "1 mg",
+      "kalium": "107 mg",
+      "karbohidrat": "14 g",
+      "protein": "0,3 g"
+    },
+    {
+      "prediksi": "Jeruk",
+      "kalori": "47 kcal",
+      "lemak": "0,1 g",
+      "kolesterol": "0 mg",
+      "natrium": "0 mg",
+      "kalium": "181 mg",
+      "karbohidrat": "12 g",
+      "protein": "0,9 g"
+    },
+    {
+      "prediksi": "Pisang",
+      "kalori": "88 kcal",
+      "lemak": "0,3 g",
+      "kolesterol": "0 mg",
+      "natrium": "1 mg",
+      "kalium": "358 mg",
+      "karbohidrat": "23 g",
+      "protein": "1,1 g"
+    },
+    {
+      "prediksi": "Tahu",
+      "kalori": "76 kcal",
+      "lemak": "4,8 g",
+      "kolesterol": "0 mg",
+      "natrium": "7 mg",
+      "kalium": "121 mg",
+      "karbohidrat": "1,9 g",
+      "protein": "8 g"
+    }
+  ]
+}
