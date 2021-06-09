@@ -1,5 +1,5 @@
 # KIA
-
+This project is part of Google Bangkit 2021 Program Capstone Project. The project is consist of machine learning, android, and cloud computing. We make an application as digital version of "buku kesehatan ibu dan anak" (Mother and Child Health Book) published by Indonesia Health Ministry. This application store health records of pregnant mother and the children and give information related to mother and child health as the physical book does.  
 
 Machine Learning
 
