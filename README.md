@@ -26,3 +26,18 @@ Things can be improved for ML:
 2. Adding more data, currently we lack data for each category. More data can help reduce overfit problems.
 3. Increase image resolution, currently we only use 224x224 pixel image while bigger resolution can help convolution to extract feature better.
 4. Deploy the ML model in a server not in client's device. This could help reducing the size of KIA app, easier versioning, allowing of using bigger ML model.
+
+
+Android
+
+*What we did for the data.*
+For the data, we fetch data from the cloud via Firestore. After reading from Firestore we save it in the form of an ArrayList and insert it into the database to create an offline-online application. For the database itself, we use Room Database to facilitate data management.
+
+*What we did for UI.*
+We use various libraries that help us in designing the UI such as Lottie which functions in displaying various applications lightly, Glide is useful for displaying images from the internet, RecylerView which serves to display lists, and also we use the default UI template from Android Studio, namely Bottom Navigation which serves as the main menu of our application.
+
+Things can be improved for Android:
+1. Optimized the code due to the weight of the application in loading the start page
+2. Added some features that cannot be delivered, such as Food Recommendation and Mother Feature.
+3. Beautify the appearance of applications that still look empty at some point
+
